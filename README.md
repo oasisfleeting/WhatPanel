@@ -138,7 +138,8 @@ You should go with a hosted email with exchange like 1&1 for 10$/year range or R
 
 All you need to do is ssh into server , yum install bind9 / yum install ajenti-v-mail
 
-Or add these instructions into docker file and run the image with additional ports opened .. ex: -p 53:53 (DNS) -p 25:25 (SMTP ), -p 143:143 (IMAP) -p 110:110 (POP) and so on.
+Or add these instructions into docker file and run the image with additional ports opened .. 
+ex: `-p 53:53 (DNS) -p 25:25 (SMTP )`, `-p 143:143 (IMAP) -p 110:110 (POP)` and so on.
 
 
 ##To Do 
