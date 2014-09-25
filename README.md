@@ -37,7 +37,7 @@ $ sudo usermod -a -G docker $USER
 ```
 ###Log out, and log back in to activate the group change.
 
-#At this point, you should be able to run docker command as a unprivileged user
+###At this point, you should be able to run docker command as a unprivileged user
 
 
 ###How to use?
